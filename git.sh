@@ -43,3 +43,8 @@ git config --global http.proxy http://127.0.0.1:1083
 git config --global https.proxy http://127.0.0.1:1083
 #取消代理
 git config --global --unset http.proxy
+------------同步jsdelivr-----------
+https://purge.jsdelivr.net/gh/klausyao/imageshosting/img/cross2.jpg
+
+
+
