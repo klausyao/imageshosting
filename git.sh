@@ -43,8 +43,19 @@ git config --global http.proxy http://127.0.0.1:1083
 git config --global https.proxy http://127.0.0.1:1083
 #取消代理
 git config --global --unset http.proxy
-------------同步jsdelivr-----------
+------------立即同步jsdelivr-----------
 https://purge.jsdelivr.net/gh/klausyao/imageshosting/img/cross2.jpg
+https://cdn.jsdelivr.net/gh/klausyao/imageshosting/oracle/rac/rac/image01.gif
+======================handsome主题==========
+#1、取消首页title
+/usr/themes/handsome/usr/index.php
+index_show = Utils::getExpertValue("index-title-show",false);# 改为false
+#2、禁用闲言碎语
+/usr/themes/handsome/component/headnav.php
+#3、评论提示修改
+/usr/themes/handsome/component/comments.php
+/usr/themes/handsome/component/header.php
+
 
 
 
