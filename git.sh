@@ -48,7 +48,7 @@ https://purge.jsdelivr.net/gh/klausyao/imageshosting/img/cross2.jpg
 https://cdn.jsdelivr.net/gh/klausyao/imageshosting/oracle/rac/rac/image01.gif
 ======================handsome主题==========
 #1、取消首页title
-/usr/themes/handsome/usr/index.php
+/usr/themes/handsome/index.php
 index_show = Utils::getExpertValue("index-title-show",false);# 改为false
 #2、禁用闲言碎语
 /usr/themes/handsome/component/headnav.php
@@ -56,6 +56,53 @@ index_show = Utils::getExpertValue("index-title-show",false);# 改为false
 /usr/themes/handsome/component/comments.php
 /usr/themes/handsome/component/header.php
 
+====css=====
+/*首页文章图片获取焦点放大*/
+.item-thumb{
+    cursor: pointer;  
+    transition: all 0.6s;  
+}
+.item-thumb:hover{
+      transform: scale(1.05);  
+}
+.item-thumb-small{
+    cursor: pointer;  
+    transition: all 0.6s;
+}
+.item-thumb-small:hover{
+    transform: scale(1.05);
+}
+/*panel阴影*/
+.panel{
+   box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+    -moz-box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+}
+.panel:hover{
+    box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+    -moz-box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+}
+.panel-small{
+    box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+    -moz-box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+}
 
-
+.panel-small:hover{
+    box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+    -moz-box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+}
+.app.container {
+    box-shadow: 0 0 30px rgba(255, 112, 173, 0.35);
+}
+.glyphicon-fire {
+    color: #ff0000;
+}
+.nav-tabs-alt .glyphicon-comment {
+    color: #495dc3;
+}
+.glyphicon-transfer {
+    color: #0e5458;
+}
+.wrapper {
+    padding: 7px
+}
 
