@@ -51,10 +51,15 @@ https://cdn.jsdelivr.net/gh/klausyao/imageshosting/oracle/rac/rac/image01.gif
 /usr/themes/handsome/index.php
 index_show = Utils::getExpertValue("index-title-show",false);# 改为false
 #2、禁用闲言碎语
-/usr/themes/handsome/component/headnav.php
+修改/usr/themes/handsome/component/headnav.php
+或者高级设置的顶部里面添加{"name":"talk","status":"hide"}
 #3、评论提示修改
 /usr/themes/handsome/component/comments.php
 /usr/themes/handsome/component/header.php
+#4、更改音乐图标
+/usr/themes/handsome/component/headnav.php
+将data-feather="disc"改为data-feather="music"
+
 
 ====css=====
 /*首页文章图片获取焦点放大*/
