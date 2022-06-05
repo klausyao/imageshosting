@@ -45,7 +45,8 @@ git config --global https.proxy http://127.0.0.1:1083
 git config --global --unset http.proxy
 ------------立即同步jsdelivr-----------
 https://purge.jsdelivr.net/gh/klausyao/imageshosting/img/cross2.jpg
-https://cdn.jsdelivr.net/gh/klausyao/imageshosting/oracle/rac/rac/image01.gif
+https://cdn.jsdelivr.net/gh/klausyao/imageshosting/devops/others/jumpserver/image1.gif
+
 ======================handsome主题==========
 #1、取消首页title
 /usr/themes/handsome/index.php
