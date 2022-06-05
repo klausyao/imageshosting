@@ -46,7 +46,10 @@ git config --global --unset http.proxy
 ------------立即同步jsdelivr-----------
 https://purge.jsdelivr.net/gh/klausyao/imageshosting/img/cross2.jpg
 https://cdn.jsdelivr.net/gh/klausyao/imageshosting/devops/others/jumpserver/image1.gif
-https://cdn.jsdelivr.net/gh/klausyao/imageshosting/oracle/sql/image001.png
+https://fastly.jsdelivr.net/gh/klausyao/imageshosting/oracle/sql/image001.png
+
+
+
 
 ======================handsome主题==========
 #1、取消首页title
