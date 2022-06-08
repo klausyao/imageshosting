@@ -47,6 +47,7 @@ git config --global --unset http.proxy
 https://purge.jsdelivr.net/gh/klausyao/imageshosting/img/cross2.jpg
 https://cdn.jsdelivr.net/gh/klausyao/imageshosting/devops/others/jumpserver/image1.gif
 https://fastly.jsdelivr.net/gh/klausyao/imageshosting/oracle/sql/image001.png
+https://fastly.jsdelivr.net/gh/klausyao/imageshosting/oracle/ha/image1.gif
 
 
 
