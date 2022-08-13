@@ -49,7 +49,16 @@ https://cdn.jsdelivr.net/gh/klausyao/imageshosting/devops/others/jumpserver/imag
 https://fastly.jsdelivr.net/gh/klausyao/imageshosting/oracle/sql/image001.png
 https://fastly.jsdelivr.net/gh/klausyao/imageshosting/oracle/ha/image1.gif
 ![img](https://fastly.jsdelivr.net/gh/klausyao/imageshosting/devops/docker-basic/image20.png)
+================================================================================================================
+使用 cdn.jsdelivr.net 未受污染的子域：使用Visual Studio 批量替换图片链接
+cdn.jsdelivr.net		-- 已被墙
+fastly.jsdelivr.net		-- 已被墙
+test1.jsdelivr.net
+gcore.jsdelivr.net
+testingcf.jsdelivr.net
+====
 
+https://gcore.jsdelivr.net/gh/klausyao/imageshosting/mysql/basic/image-1-1.png
 
 
 ======================handsome主题==========
