@@ -61,6 +61,7 @@ testingcf.jsdelivr.net
 ![](https://gcore.jsdelivr.net/gh/klausyao/imageshosting/mysql/basic/image-2-1.png)
 
 https://gcore.jsdelivr.net/gh/klausyao/imageshosting
+
 ======================handsome主题==========
 #1、取消首页title
 /usr/themes/handsome/index.php
