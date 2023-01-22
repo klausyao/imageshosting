@@ -8,6 +8,11 @@ ssh-keygen -t rsa -C "yaokui_love@yeah.net"
 #创建仓库
 #关联仓库
 git remote add origin https://github.com/klausyao/imageshosting.git
+# 新版本后，需要token关联仓库
+git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
+git remote set-url origin  https://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@github.com/klausyao/imageshosting.git
+
+
 #首次推送
 git push -u origin main
 
@@ -22,7 +27,6 @@ git pull --rebase origin main
   
 #测试 
 ssh -T git@github.com
-
 
 $ git config user.name   //查看用户名
 $ git config user.email  //查看用户邮箱地址
