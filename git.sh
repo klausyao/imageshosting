@@ -8,9 +8,11 @@ ssh-keygen -t rsa -C "yaokui_love@yeah.net"
 #创建仓库
 #关联仓库
 git remote add origin https://github.com/klausyao/imageshosting.git
+git remote add origin https://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@github.com/klausyao/imageshosting.git
+
 # 新版本后，需要token关联仓库
 git remote set-url origin  https://<your_token>@github.com/<USERNAME>/<REPO>.git
-git remote set-url origin  https://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@github.com/klausyao/imageshosting.git
+git remote set-url origin  https://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@github.com/klausyao/imageshosting.git
 
 
 #首次推送
@@ -24,6 +26,8 @@ git pull --rebase origin main
   git config --global user.name "Klausyao"
   
 # token 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
+
+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
   
 #测试 
 ssh -T git@github.com
@@ -40,7 +44,8 @@ git config --global http.sslVerify "false"
 #重新添加仓库
 
 #删除关联仓库
-git remote rm origin
+
+
 -------------------------------
 #后续新增文件同步到仓库
 git add .
