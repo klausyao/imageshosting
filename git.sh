@@ -1,4 +1,5 @@
-#初始化
+
+#在需要的目录下初始化
 git init
 #增加当前目录所有文件
 git add .
@@ -9,7 +10,7 @@ git commit -m "first commit"
 #创建SSH KEY
 ssh-keygen -t rsa -C "youremail@example.com"
 #登录Github，添加ssh key
-Settings-SSH and GPG KEYS-New SSH key
+【Settings】-【SSH and GPG KEYS】-【New SSH key】
 #创建仓库
 #关联仓库
 git remote add origin https://github.com/klausyao/imageshosting.git
@@ -48,6 +49,7 @@ https://purge.jsdelivr.net/gh/klausyao/imageshosting/img/cross2.jpg
 https://cdn.jsdelivr.net/gh/klausyao/imageshosting/devops/others/jumpserver/image1.gif
 https://fastly.jsdelivr.net/gh/klausyao/imageshosting/oracle/sql/image001.png
 https://fastly.jsdelivr.net/gh/klausyao/imageshosting/oracle/ha/image1.gif
+https://gcore.jsdelivr.net/gh/klausyao/imageshosting/index/img/0.jpg
 ![img](https://fastly.jsdelivr.net/gh/klausyao/imageshosting/devops/docker-basic/image20.png)
 ================================================================================================================
 使用 cdn.jsdelivr.net 未受污染的子域：使用Visual Studio 批量替换图片链接
