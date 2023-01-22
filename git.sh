@@ -1,14 +1,8 @@
-
 #在需要的目录下初始化
+# 使用cd pwd等命令查看 
 git init
-#增加当前目录所有文件
-git add .
-#查看状态
-git status
-#提交
-git commit -m "first commit"
 #创建SSH KEY
-ssh-keygen -t rsa -C "youremail@example.com"
+ssh-keygen -t rsa -C "yaokui_love@yeah.net"
 #登录Github，添加ssh key
 【Settings】-【SSH and GPG KEYS】-【New SSH key】
 #创建仓库
@@ -20,6 +14,9 @@ git push -u origin main
 git push origin main
 #拉取
 git pull --rebase origin main
+
+  git config --global user.email "yaokui_love@yeah.net"
+  git config --global user.name "Klausyao"
 
 -----------------------------------------------------------
 #git push 报错
@@ -35,6 +32,8 @@ git remote rm origin
 git add .
 git commit -m "20220605"
 git push origin main
+
+git status
 
 ---------------VPN代理-------
 #查看代理
