@@ -17,6 +17,16 @@ git pull --rebase origin main
 
   git config --global user.email "yaokui_love@yeah.net"
   git config --global user.name "Klausyao"
+  
+# token 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
+  
+#测试 
+ssh -T git@github.com
+
+
+$ git config user.name   //查看用户名
+$ git config user.email  //查看用户邮箱地址
+$ git config -l          //查看所有配置
 
 -----------------------------------------------------------
 #git push 报错
